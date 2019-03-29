@@ -9,21 +9,21 @@ h2 {
 }
 
 path {
-  stroke: #000;
+  stroke: #fff;
   stroke-linejoin: round;
   stroke-linecap: round;
 
 }
 
 path:hover {
-    opacity: 0.4;
+    opacity: 0.8;
+    /* fill: red; */
 }
 
 .d3-tip {
     color: white;
     position: absolute;
     text-align: center;
-    width: 60px;
     padding: 2px;
     font: 12px sans-serif;
     background: rgba(0,0,0,.8);
